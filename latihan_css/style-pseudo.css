@@ -1,0 +1,9 @@
+a{
+    color: aqua;
+    text-decoration: none;
+    font-size: 100px;
+}
+
+a:hover{
+    color: blue;
+}

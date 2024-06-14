@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horizontal Scrollable Squares</title>
+  <!-- Link Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Style for the container div */
+    .scrollable-row {
+      overflow-x: hidden; /* Hide scrollbar while maintaining scrolling */
+      white-space: nowrap; /* Keep items on a single line */
+      padding: 20px 0; /* Add some padding for spacing */
+    }
+    
+    /* Style for each square */
+    .square {
+      width: 100px; /* Set width of the square */
+      height: 100px; /* Set height of the square */
+      background-color: #3498db; /* Set background color */
+      display: inline-block; /* Display squares in a row */
+      margin-right: 10px; /* Add some margin between squares */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="scrollable-row">
+      <!-- Bootstrap row -->
+      <div class="row">
+        <!-- Bootstrap column -->
+        <div class="col">
+          <!-- Squares -->
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

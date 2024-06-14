@@ -1,0 +1,31 @@
+$color1 : red;
+$color2: blue;
+$size1: 50px;
+$size2: 100px;
+
+$colors: red,green,blue;
+
+h2{
+    color: $color1;
+    &:hover{
+        color: $color2;
+    }
+}
+
+p{
+    font-size: $size1;
+    text-align: center;
+    // &:hover{
+    //     font-size: $size2;
+    //     font-weight: bold;
+    //     text-transform: uppercase;
+    // }
+}
+
+@for $i from 1 through length($colors) {
+    ul {
+        li:nth-child(#{$i}) {
+            color: nth($colors, $i);
+        }
+    }
+}

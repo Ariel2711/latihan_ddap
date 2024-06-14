@@ -1,0 +1,23 @@
+h2 {
+  color: red;
+}
+h2:hover {
+  color: blue;
+}
+
+p {
+  font-size: 50px;
+  text-align: center;
+}
+
+ul li:nth-child(1) {
+  color: red;
+}
+
+ul li:nth-child(2) {
+  color: green;
+}
+
+ul li:nth-child(3) {
+  color: blue;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan JS</title>
+</head>
+<body onunload="klik()">
+    <!-- <button onclick="klik()">click</button> -->
+    <form action="">
+        <input type="text" name="nama" id="nama">
+        <button type="submit" onclick="cetakNama()">Cetak</button>
+        <br><br>
+
+        <input type="checkbox" name="coffee" value="cream">With cream<br />
+        <input type="checkbox" name="coffee" value="sugar">With sugar<br />
+        <input type="button" onclick="createOrder()" value="Send order">
+        <br />
+        <input type="text" id="order" size="50">
+        <br><br>
+    </form>
+
+    <form action="" id="formKota">
+        Kota : <select name="idkota" onchange="pilKota()">
+            <option value="JK">Jakarta</option>
+            <option value="BD">Bandung</option>
+            <option value="SB">Surabaya</option>
+        </select>
+        <br />
+        Kota Pilihan : <input type="text" name="kota" value="" size="20" />
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
